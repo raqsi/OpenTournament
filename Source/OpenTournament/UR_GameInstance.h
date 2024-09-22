@@ -5,8 +5,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Engine/GameInstance.h"
-
+#include "CommonGameInstance.h"
 #include "UR_GameInstance.generated.h"
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -17,7 +16,7 @@
  */
 UCLASS()
 class OPENTOURNAMENT_API UUR_GameInstance
-    : public UGameInstance
+    : public UCommonGameInstance
 {
     GENERATED_BODY()
 

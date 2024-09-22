@@ -12,8 +12,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-UUR_LocalPlayer::UUR_LocalPlayer(const class FObjectInitializer& ObjectInitializer)
-    : Super(ObjectInitializer)
+UUR_LocalPlayer::UUR_LocalPlayer()
 {
     // no need to create a history for the CDO
     if (!HasAnyFlags(RF_ClassDefaultObject))

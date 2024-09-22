@@ -4,8 +4,7 @@
 
 #pragma once
 
-#include "Engine/LocalPlayer.h"
-
+#include "CommonLocalPlayer.h"
 #include "UR_LocalPlayer.generated.h"
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -18,11 +17,11 @@ class UUR_MessageHistory;
  *
  */
 UCLASS(BlueprintType)
-class OPENTOURNAMENT_API UUR_LocalPlayer : public ULocalPlayer
+class OPENTOURNAMENT_API UUR_LocalPlayer : public UCommonLocalPlayer
 {
     GENERATED_BODY()
 
-    UUR_LocalPlayer(const FObjectInitializer& ObjectInitializer);
+    UUR_LocalPlayer();
 
 public:
     /**
